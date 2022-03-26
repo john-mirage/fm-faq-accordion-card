@@ -13,23 +13,28 @@
         width: 1px;
     }
 
-    #faq-1:checked + label span { @apply font-bold text-very-dark-desaturated-blue; }
-    #faq-1:checked + label svg { @apply rotate-180; }
-    #faq-1:checked ~ span { @apply block; }
+    #faq-input-1:checked ~ #faq-label-1 .faq-header .faq-question { @apply font-bold text-very-dark-desaturated-blue; }
+    #faq-input-1:checked ~ #faq-label-1 .faq-header .faq-arrow { @apply rotate-180; }
+    #faq-input-1:checked ~ #faq-label-1 .faq-answer { @apply block; }
+    #faq-label-1:hover .faq-header .faq-question { @apply text-soft-red }
 
-    #faq-2:checked + label span { @apply font-bold text-very-dark-desaturated-blue; }
-    #faq-2:checked + label svg { @apply rotate-180; }
-    #faq-2:checked ~ span { @apply block; }
+    #faq-input-2:checked ~ #faq-label-2 .faq-header .faq-question { @apply font-bold text-very-dark-desaturated-blue; }
+    #faq-input-2:checked ~ #faq-label-2 .faq-header .faq-arrow { @apply rotate-180; }
+    #faq-input-2:checked ~ #faq-label-2 .faq-answer { @apply block; }
+    #faq-label-2:hover .faq-header .faq-question { @apply text-soft-red }
 
-    #faq-3:checked + label span { @apply font-bold text-very-dark-desaturated-blue; }
-    #faq-3:checked + label svg { @apply rotate-180; }
-    #faq-3:checked ~ span { @apply block; }
+    #faq-input-3:checked ~ #faq-label-3 .faq-header .faq-question { @apply font-bold text-very-dark-desaturated-blue; }
+    #faq-input-3:checked ~ #faq-label-3 .faq-header .faq-arrow { @apply rotate-180; }
+    #faq-input-3:checked ~ #faq-label-3 .faq-answer { @apply block; }
+    #faq-label-3:hover .faq-header .faq-question { @apply text-soft-red }
 
-    #faq-4:checked + label span { @apply font-bold text-very-dark-desaturated-blue; }
-    #faq-4:checked + label svg { @apply rotate-180; }
-    #faq-4:checked ~ span { @apply block; }
+    #faq-input-4:checked ~ #faq-label-4 .faq-header .faq-question { @apply font-bold text-very-dark-desaturated-blue; }
+    #faq-input-4:checked ~ #faq-label-4 .faq-header .faq-arrow { @apply rotate-180; }
+    #faq-input-4:checked ~ #faq-label-4 .faq-answer { @apply block; }
+    #faq-label-4:hover .faq-header .faq-question { @apply text-soft-red }
 
-    #faq-5:checked + label span { @apply font-bold text-very-dark-desaturated-blue; }
-    #faq-5:checked + label svg { @apply rotate-180; }
-    #faq-5:checked ~ span { @apply block; }
+    #faq-input-5:checked ~ #faq-label-5 .faq-header .faq-question { @apply font-bold text-very-dark-desaturated-blue; }
+    #faq-input-5:checked ~ #faq-label-5 .faq-header .faq-arrow { @apply rotate-180; }
+    #faq-input-5:checked ~ #faq-label-5 .faq-answer { @apply block; }
+    #faq-label-5:hover .faq-header .faq-question { @apply text-soft-red }
 }
