@@ -3,12 +3,79 @@
   
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+        <link rel="icon" type="image/png" href="src/assets/images/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>FAQ Accordion Card</title>
     </head>
 
-    <body>
+    <body class="w-full min-h-screen px-6 pt-10 pb-20 bg-gradient-to-b from-soft-violet to-soft-blue">
+
+        <main class="relative w-full max-w-mobile-card mx-auto h-auto px-6 pb-12 pt-[7.5rem] mt-[6.75rem] rounded-[1.25rem] bg-[#fff] lg:max-w-desktop-card">
+            <img class="z-10 absolute top-0 left-1/2 -translate-x-1/2 w-auto h-[6.5rem]" src="src/assets/images/bg-pattern-mobile.svg" alt="woman online illustration shadow">
+            <img class="z-20 absolute -top-[6.75rem] left-1/2 -translate-x-1/2 w-auto h-[11.25rem]" src="src/assets/images/illustration-woman-online-mobile.svg" alt="woman online illustration">
+
+            <h1 class="text-center text-[2rem] font-bold text-very-dark-desaturated-blue mb-4">FAQ</h1>
+
+            <div class="border-b border-light-grayish-blue">
+                <input class="visually-hidden" type="checkbox" name="faq-1" id="faq-1">
+                <label for="faq-1" class="flex flex-row justify-between items-center w-full h-12 focus:outline focus:outline-2 focus:outline-soft-red">
+                    <span class="flex-1 text-[0.8125rem] font-normal text-dark-grayish-blue mr-4">How many team members can i invite?</span>
+                    <svg class="flex-shrink-0 flex-grow-0 w-2.5 h-auto stroke-soft-red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 7">
+                        <path d="M1 .799l4 4 4-4" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                    </svg>
+                </label>
+                <span class="hidden text-xs font-normal text-dark-grayish-blue leading-[1.125rem] mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quos aspernatur dignissimos.</span>
+            </div>
+
+            <div class="border-b border-light-grayish-blue">
+                <input class="visually-hidden" type="checkbox" name="faq-2" id="faq-2">
+                <label for="faq-2" class="flex flex-row justify-between items-center w-full h-12 focus:outline focus:outline-2 focus:outline-soft-red">
+                    <span class="flex-1 text-[0.8125rem] font-normal text-dark-grayish-blue mr-4">What is the maximum file upload size?</span>
+                    <svg class="flex-shrink-0 flex-grow-0 w-2.5 h-auto stroke-soft-red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 7">
+                        <path d="M1 .799l4 4 4-4" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                    </svg>
+                </label>
+                <span class="hidden text-xs font-normal text-dark-grayish-blue leading-[1.125rem] mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quos aspernatur dignissimos.</span>
+            </div>
+
+            <div class="border-b border-light-grayish-blue">
+                <input class="visually-hidden" type="checkbox" name="faq-3" id="faq-3">
+                <label for="faq-3" class="flex flex-row justify-between items-center w-full h-12 focus:outline focus:outline-2 focus:outline-soft-red">
+                    <span class="flex-1 text-[0.8125rem] font-normal text-dark-grayish-blue mr-4">How do i reset my password?</span>
+                    <svg class="flex-shrink-0 flex-grow-0 w-2.5 h-auto stroke-soft-red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 7">
+                        <path d="M1 .799l4 4 4-4" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                    </svg>
+                </label>
+                <span class="hidden text-xs font-normal text-dark-grayish-blue leading-[1.125rem] mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quos aspernatur dignissimos.</span>
+            </div>
+
+            <div class="border-b border-light-grayish-blue">
+                <input class="visually-hidden" type="checkbox" name="faq-4" id="faq-4">
+                <label for="faq-4" class="flex flex-row justify-between items-center w-full h-12 focus:outline focus:outline-2 focus:outline-soft-red">
+                    <span class="flex-1 text-[0.8125rem] font-normal text-dark-grayish-blue mr-4">Can i cancel my subscription?</span>
+                    <svg class="flex-shrink-0 flex-grow-0 w-2.5 h-auto stroke-soft-red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 7">
+                        <path d="M1 .799l4 4 4-4" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                    </svg>
+                </label>
+                <span class="hidden text-xs font-normal text-dark-grayish-blue leading-[1.125rem] mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quos aspernatur dignissimos.</span>
+            </div>
+
+            <div class="border-b border-light-grayish-blue">
+                <input class="visually-hidden" type="checkbox" name="faq-5" id="faq-5">
+                <label for="faq-5" class="flex flex-row justify-between items-center w-full h-12 focus:outline focus:outline-2 focus:outline-soft-red">
+                    <span class="flex-1 text-[0.8125rem] font-normal text-dark-grayish-blue mr-4">Do you provide additional support?</span>
+                    <svg class="flex-shrink-0 flex-grow-0 w-2.5 h-auto stroke-soft-red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 7">
+                        <path d="M1 .799l4 4 4-4" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                    </svg>
+                </label>
+                <span class="hidden text-xs font-normal text-dark-grayish-blue leading-[1.125rem] mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quos aspernatur dignissimos.</span>
+            </div>
+
+        </main>
+
         <script type="module" src="/src/main.ts"></script>
     </body>
 
