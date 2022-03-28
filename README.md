@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot]()
+![Screenshot](./docs/faq-accordion-card.png)
 
 ### Links
 
