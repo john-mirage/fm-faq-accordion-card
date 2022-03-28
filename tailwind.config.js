@@ -9,7 +9,7 @@ module.exports = {
     screens: {
       xs: "340px",
       sm: "375px",
-      lg: "968px",
+      lg: "1024px",
     },
     colors: {
       "very-dark-desaturated-blue": "hsl(238, 29%, 16%)",
